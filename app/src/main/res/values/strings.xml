@@ -1,0 +1,42 @@
+<resources>
+    <!--Шапка приложения-->
+    <string name="app_name">ПусяМетр</string>
+    <string name="tab_text_1">Измерить</string>
+    <string name="tab_text_2">Опции</string>
+    <string name="tab_text_3">Инфо</string>
+    <!--Активити измерения-->
+    <string name="main_title">Измерить пусечность (МПу)</string>
+    <string name="main_result">Наведите на объект и нажмите кнопку.</string>
+    <string name="main_status">Ожидание.</string>
+    <string name="main_mes">Измерить</string>
+    <!--Активити настроек-->
+    <string name="settings_title">Настройки</string>
+    <string name="settings_option1">Использовать встроенный регистратор частиц</string>
+    <string name="settings_option2">Перенастроить модулятор противофазных волн (эксперементальная функция)</string>
+    <string name="settings_option3">Убрать пусечный шум</string>
+    <string name="settings_option4">Добавить корректировочную величину (0.592кПу)</string>
+    <string name="settings_option5">Коэфициент вязкости–пронизанности среды (1.0 – 2.0 Ан)</string>
+    <string name="settings_option6">Фоновый уровень пусечности(5 – 15 кПу)</string>
+    <string name="settings_option7">Уровень пропускаемости среды (10 – 20 Пу/с)</string>
+    <string name="settings_saved">Настройки сохранены</string>
+    <string name="settings_save">Сохранить</string>
+    <string name="error">Ошибка!</string>
+
+    <!--Активити инфо-->
+    <string name="info_title">Информация о приложении</string>
+    <string name="info_text_title">Что это такое?</string>
+    <string name="info_text">"ПусяМетр" - приложение, моделирующее универсальный прибор, который может определить,
+        наскольно объект, над которым проводится эксперимент, подходит под понятие "пуся", т.е. регистрирует его пусечность.
+        Пусечность измеряется в МПу (МегаПусях), погрешность прибора - +/-1 МПу.</string>
+    <string name="info_usage_title">Как пользоваться?</string>
+    <string name="info_usage">На вкладке "Настройки" настройте прибор в соответствии с параметрами среды, в которой вы находитесь.
+        Сохраните настройки, а затем перейдите на вкладку "Измерить". Направьте телефон верхней частью в сторону объекта,
+        пусечность которого вы хотите узнать, и нажмите круглую кнопку "Измерить".
+        После этого вы получите результат, либо сообщение об ошибке.
+        \nВнимание!
+        \nНеверно настроенные параметры могут привести к ошибке или поломке устройства!
+    </string>
+    <string name="info_auth_title">Автор</string>
+    <string name="info_auth">Алябьев В.О., 2021\n
+        vk.com/vlados_space</string>
+</resources>

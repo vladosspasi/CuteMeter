@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                                   xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+                                                   android:layout_height="match_parent">
+
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" tools:layout_editor_absoluteY="164dp"
+            tools:layout_editor_absoluteX="146dp">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                      android:orientation="vertical">
+            <TextView
+                    android:text="@string/settings_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:id="@+id/settings_title"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginHorizontal="10dp"
+                    android:textStyle="bold"
+                    android:textSize="20sp"/>
+            <Switch
+                    android:text="@string/settings_option1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:id="@+id/option_switch1"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginHorizontal="10dp"/>
+            <Switch
+                    android:text="@string/settings_option2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:id="@+id/option_switch2"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginHorizontal="10dp"/>
+            <Switch
+                    android:text="@string/settings_option3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:id="@+id/option_switch3"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginHorizontal="10dp"/>
+            <Switch
+                    android:text="@string/settings_option4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:id="@+id/option_switch4"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginHorizontal="10dp"/>
+
+            <TextView
+                    android:text="@string/settings_option5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:id="@+id/text_option5"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginHorizontal="10dp"/>
+            <SeekBar
+                    style="@style/Widget.AppCompat.SeekBar.Discrete"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:max="10"
+                    android:progress="5"
+                    android:id="@+id/seekBar_option5"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginHorizontal="10dp"/>
+            <TextView
+                    android:text="@string/settings_option6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:id="@+id/text_option6"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginHorizontal="10dp"/>
+            <SeekBar
+                    style="@style/Widget.AppCompat.SeekBar.Discrete"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:max="10"
+                    android:progress="5"
+                    android:id="@+id/seekBar_option6"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginHorizontal="10dp"/>
+            <TextView
+                    android:text="@string/settings_option7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:id="@+id/text_option7"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginHorizontal="10dp"/>
+            <SeekBar
+                    style="@style/Widget.AppCompat.SeekBar.Discrete"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:max="10"
+                    android:progress="5"
+                    android:id="@+id/seekBar_option7"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginHorizontal="10dp"
+                    android:layout_marginBottom="10dp"/>
+            <Button
+                    android:text="@string/settings_save"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:id="@+id/save_button"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginHorizontal="10dp"
+                    android:layout_marginBottom="10dp"
+                    />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
