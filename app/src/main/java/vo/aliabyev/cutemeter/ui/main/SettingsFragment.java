@@ -85,7 +85,6 @@ public class SettingsFragment extends Fragment{
             }
             fos.write(configList.toString().getBytes());
         }catch (Exception e) {
-            Snackbar.make(view, R.string.error, Snackbar.LENGTH_LONG).show();
             Log.d("Ошибка:", e.toString());
             return;
         }
@@ -94,7 +93,6 @@ public class SettingsFragment extends Fragment{
                 if (fos != null)
                     fos.close();
             }catch (Exception e) {
-                Snackbar.make(view, R.string.error, Snackbar.LENGTH_LONG).show();
                 Log.d("Ошибка:", e.toString());
                 return;
             }
@@ -114,7 +112,6 @@ public class SettingsFragment extends Fragment{
             fin.read(bytes);
             JsonString = new String(bytes);
         } catch (Exception e) {
-            Snackbar.make(view, R.string.error, Snackbar.LENGTH_LONG).show();
             Log.d("Ошибка:", e.toString());
             return;
         } finally {
@@ -122,7 +119,6 @@ public class SettingsFragment extends Fragment{
                 if (fin != null)
                     fin.close();
             } catch (Exception e) {
-                Snackbar.make(view, R.string.error, Snackbar.LENGTH_LONG).show();
                 Log.d("Ошибка:", e.toString());
                 return;
             }
@@ -144,7 +140,6 @@ public class SettingsFragment extends Fragment{
             option6.setProgress(options.getInt("option6"));
             option7.setProgress(options.getInt("option7"));
         }catch (Exception e) {
-            Snackbar.make(Objects.requireNonNull(getView()), R.string.error, Snackbar.LENGTH_LONG).show();
             Log.d("Ошибка: ", e.toString());
         }
     }
